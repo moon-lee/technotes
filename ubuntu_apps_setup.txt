@@ -1,0 +1,71 @@
+1. Install Google Chrome
+	-> https://www.google.com.au/chrome/browser/desktop/index.html
+
+2. Install Synergy (KVM Software)
+	-> https://symless.com/synergy/
+
+3. Install Oh My Zsh
+	-> Install Z Shell 
+		: $ echo $SHELL <- verify the current shell
+		: $ sudo apt-get install zsh
+		: $ chsh -s $(which zsh)
+
+	-> Install git (the latest stable version) <- using personal package archives
+		: $ sudo add-apt-repository ppa:git-core/ppa
+		: $ sudo apt-get update
+		: $ sudo apt-get install git
+
+	-> Install Oh-My-Zsh
+		: $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+	-> Install theme and fonts
+		: Powerlevel9k theme
+			-> $ git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+			-> add the below in ~/.zshrc
+				: ZSH_THEME="powerlevel9k/powerlevel9k"
+		: Install Powerline font
+			-> Option 1 : Adobe Source Code Pro
+			-> Option 2 : Powerline fonts -> https://github.com/powerline/fonts
+			-> Option 3 : Awesome Powerline fonts -> https://github.com/gabrielelana/awesome-terminal-fonts
+			-> Option 4 : Nerd-fomts -> https://github.com/ryanoasis/nerd-fonts
+
+4. Install SublimeText 3
+	-> http://www.sublimetext.com/ 
+	-> Packages
+		-> 1. Package control
+		-> 2. Material Theme
+		-> 3. Project Manager
+		-> 4. AdvandedNewFiles
+		-> 5. SublimeLinter, SublimeLinter-php
+		-> 6. Codeigniter Snippets
+
+5. Install Bitnami LAMP Stack
+	-> https://bitnami.com/stack/lamp/installer
+	-> https://docs.bitnami.com/installer/infrastructure/lamp/ <- Documentation
+		: $ cd /tmp <-- changing directory to installer location
+		: $ chmod +x ./bitnami-wordpress-*-module-linux-x64-installer.run <-- change mode to executed mode
+		: $ sudo ./bitnami-wordpress-*-module-linux-x64-installer.run  <-- install LAMP stack globally with root right 
+	-> change the installed folder group (apache2, apps, frameworks)
+		: $ sudo chown <user>:<group> [directory|files] -> $ sudo chown -R :moon apps
+
+6. Install Mysql workbench
+	-> https://dev.mysql.com/doc/workbench/en/wb-linux.html
+	-> Install the MySQL APT repository <- https://dev.mysql.com/doc/mysql-apt-repo-quick-guide/en/
+		: $ sudo dpkg -i mysql-apt-config_0.8.3-1_all.deb
+		: $ sudo apt-get update
+	-> Install MySQL Workbench
+		: $ sudo apt-get install mysql-workbench-community
+
+	-> Reset MySQL root password
+		: stop MySQL server
+		: Open terminal and add lamp stack configuration setting using "use_lampstack" shell script
+			-> : $ sudo ./use_lampstack
+		: Start MySQL server in safe mode
+			-> : $ sudo mysqld_safe --skip-grant-tables
+		: And then open other terminal
+			-> : $ mysql -u root
+			-> : $ FLUSH PRIVILEGES;
+			-> : $ ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';	
+		: Then Restart MySQL server
+
+
