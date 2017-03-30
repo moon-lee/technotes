@@ -1,0 +1,13 @@
+Pano2VR
+    -> Converts panoramic images into interactive panoramas
+
+1. Load Image
+    -> Full spherical image 
+        : Equirectangular projection
+        : Cubic projection
+        : Little Planet projection
+
+    -> Partial Format image
+        : Cylindrical projection
+        : Rectilinear projection
+        : Arc formed

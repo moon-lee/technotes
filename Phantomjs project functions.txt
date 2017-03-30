@@ -35,3 +35,10 @@ Network Monitoring
 Build a Network Monitoring script
 	-> that can load every given web page
 	-> Check to see if there are any resource errors (broken image links, etc)
+
+Testing Framework
+
+
+Continuous Integration tools
+	-> Jenkins
+	-> Travis, CircleCI, CodeShip 

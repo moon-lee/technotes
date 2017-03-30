@@ -1,0 +1,13 @@
+Install SublimeText 3
+    -> http://www.sublimetext.com/ 
+    -> Packages
+        -> 1. Package control
+        -> 2. Material Theme
+        -> 3. Project Manager
+        -> 4. AdvandedNewFiles
+        -> 5. SublimeLinter, SublimeLinter-php
+        -> 6. Codeigniter Snippets
+        -> 7. A File Icon
+        -> 8. Bootstrap 4 Autocomplete / snippets
+        -> 9. JavaScript Completions
+        
