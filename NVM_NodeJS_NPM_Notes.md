@@ -1,28 +1,33 @@
 ## Install NVM (Node version manager) - Ubuntu/macOS ##
 
-    -> Install nvm <- it's a version manager for Node.js
-        -> https://github.com/creationix/nvm/blob/master/README.markdown
-        -> Check C++ compiler and cURL
-            : $ sudo apt-get install build-tools libssl-dev curl
-        -> Running the install script with cURL
-            : $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash 
-        -> Check the below in the .bashrc or .zshrc
-            : export NVM_DIR="$HOME/.nvm"
-            : [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-        -> Verify that nvm was Properly installed
-            : $ nvm --version
-        -> Install the latest Node.js version
-            : $ nvm install node
-        -> To use that version of Node.js
-            : $ nvm use node
-        -> Install the latest Node.js LTS version
-            : $ nvm install --lts
-        -> To use that latest LTS version of Node.js
-            : $ nvm use --lts
-        -> To list installed versions
-            : $ nvm ls
-        -> To list remote versions available for install
-            : $ nvm ls-remote --lts
+    1. https://github.com/creationix/nvm/blob/master/markdown 
+    2. Check C++ compiler and cURL
+```
+        $ sudo apt-get install build-tools libssl-dev curl
+
+```    
+    3. Running the install script with cURL
+```
+        $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash 
+
+```    
+    -> Check the below in the .bashrc or .zshrc
+        : export NVM_DIR="$HOME/.nvm"
+        : [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+    -> Verify that nvm was Properly installed
+        : $ nvm --version
+    -> Install the latest Node.js version
+        : $ nvm install node
+    -> To use that version of Node.js
+        : $ nvm use node
+    -> Install the latest Node.js LTS version
+        : $ nvm install --lts
+    -> To use that latest LTS version of Node.js
+        : $ nvm use --lts
+    -> To list installed versions
+        : $ nvm ls
+    -> To list remote versions available for install
+        : $ nvm ls-remote --lts
 
     -> Install Node.js <- from nvm
         : It is a JavaScript runtime built on Chrome's V8 JavaScript engine.
