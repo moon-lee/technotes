@@ -37,14 +37,7 @@
 			-> Option 4 : Nerd-fomts -> https://github.com/ryanoasis/nerd-fonts
 
 4. Install SublimeText 3
-	-> http://www.sublimetext.com/ 
-	-> Packages
-		-> 1. Package control
-		-> 2. Material Theme
-		-> 3. Project Manager
-		-> 4. AdvandedNewFiles
-		-> 5. SublimeLinter, SublimeLinter-php
-		-> 6. Codeigniter Snippets
+    -> Go To SublimeText_Notes.txt in this project.
 
 5. Install Bitnami LAMP Stack
 	-> https://bitnami.com/stack/lamp/installer
@@ -133,6 +126,10 @@
    				: $ nvm install --lts
    			-> To use that latest LTS version of Node.js
    				: $ nvm use --lts
+            -> To list installed versions
+                : $ nvm ls
+            -> To list remote versions available for install
+                : $ nvm ls-remote --lts
 
    		-> Install Node.js <- from nvm
    			: It is a JavaScript runtime built on Chrome's V8 JavaScript engine.

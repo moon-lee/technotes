@@ -1,0 +1,4 @@
+1. chmod
+    : Read (4),  Write (2), eXecute (1)
+    : u=user, g=group, o=other, a=all
+    : $ chmod u=rwx file.txt <- set the permission of file.txt to read, write and execute by user

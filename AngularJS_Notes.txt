@@ -8,3 +8,16 @@ Controller
     -> Controller will be a function that Angular invokes
     -> Controller takes a $scope parameter
     -> Attach model to $scope
+
+Double Curly Brace {{ }}
+    -> The markup indicator for binding data to a view
+
+ng-src
+    -> Directive of binding an image's src
+
+
+the way to write for Directive (four)
+    -> <ng-form />
+    -> <div ng-form />
+    -> <div class="ng-form" />
+
