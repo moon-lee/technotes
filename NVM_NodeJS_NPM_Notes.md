@@ -1,4 +1,4 @@
-## Install NVM (Node version manager) - Ubuntu/macOS ##
+## Install NVM (Node version manager) - Ubuntu/macOS 
 
     1. https://github.com/creationix/nvm/blob/master/markdown 
     2. Check C++ compiler and cURL
@@ -64,7 +64,7 @@
             $ npm install -g npm
 
 ```
-## Install NVM (Node version manager) - Windows ##
+## Install NVM (Node version manager) - Windows 
 
     1. https://github.com/coreybutler/nvm-windows
     2. Verify that nvm was Properly installed
@@ -93,9 +93,9 @@
 
 ```
     7. Install Node.js <- from nvm
-        * It is a JavaScript runtime built on Chrome's V8 JavaScript engine.
-        * It uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
-        * https://nodejs.org/en/download/package-manager/
+        *  It is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+        *  It uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
+        *  https://nodejs.org/en/download/package-manager/
 
     8. Install npm <- from Node.js 
         * It is a package manager for JavaScript
