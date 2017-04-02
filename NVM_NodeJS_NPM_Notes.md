@@ -93,7 +93,7 @@
 
 ```
     7. Install Node.js <- from nvm
-        *  It is a JavaScript runtime built on Chrome's V8 JavaScript engine.
+        *      It is a JavaScript runtime built on Chrome's V8 JavaScript engine.
         *  It uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
         *  https://nodejs.org/en/download/package-manager/
 
