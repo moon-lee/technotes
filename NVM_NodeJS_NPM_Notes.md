@@ -66,38 +66,38 @@
 ```
 ## Install NVM (Node version manager) - Windows ##
 
-    1. -> https://github.com/coreybutler/nvm-windows
-    2. -> Verify that nvm was Properly installed
+    1. https://github.com/coreybutler/nvm-windows
+    2. Verify that nvm was Properly installed
 ```
         $ nvm version
 
 ```    
-    3. -> Install the latest Node.js version
+    3. Install the latest Node.js version
 ```
         $ nvm install latest
 
 ```    
-    4. -> To use that version of Node.js
+    4. To use that version of Node.js
 ```
         $ nvm use <node installed version>
 
 ```    
-    5. -> To list installed versions
+    5. To list installed versions
 ```
         $ nvm ls
 
 ```    
-    6. -> To list remote versions available for install
+    6. To list remote versions available for install
 ```
         $ nvm list available
 
 ```
-    7. -> Install Node.js <- from nvm
+    7. Install Node.js <- from nvm
         * It is a JavaScript runtime built on Chrome's V8 JavaScript engine.
         * It uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.
         * https://nodejs.org/en/download/package-manager/
 
-    8. -> Install npm <- from Node.js 
+    8. Install npm <- from Node.js 
         * It is a package manager for JavaScript
         * It is came with Node.js and need to up-to-date
 ```
