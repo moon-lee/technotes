@@ -19,3 +19,10 @@
     6. Git History (git log)
     7. Auto Close Tag
     8. Auto Rename Tag
+
+* Extentions for JavaScript
+    1. ESLint
+    2. JavaScript(ES6) code snippets
+    3. npm IntelliSense
+    4. Debugger for Chrome
+    5. Document This
