@@ -26,3 +26,4 @@
     3. npm IntelliSense
     4. Debugger for Chrome
     5. Document This
+    6. Node Exec
