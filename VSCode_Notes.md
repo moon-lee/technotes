@@ -19,6 +19,7 @@
     6. Git History (git log)
     7. Auto Close Tag
     8. Auto Rename Tag
+    9. Align
 
 * Extentions for JavaScript
     1. ESLint
