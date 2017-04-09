@@ -6,6 +6,8 @@
     2. Project Manager
     3. Sublime Material Theme
     4. Sublime Text KeyMap
+    5. One Dark (Sublime Babel)
+    6. vscode-icons
 
 * Extentions for Markdown
     1. Markdown Shortcuts
@@ -20,6 +22,8 @@
     7. Auto Close Tag
     8. Auto Rename Tag
     9. Align
+    10. Bootstrap 4 & Font awesome snippets
+    11. Icon Fonts
 
 * Extentions for JavaScript
     1. ESLint
@@ -28,3 +32,7 @@
     4. Debugger for Chrome
     5. Document This
     6. Node Exec
+    7. Code Runner
+
+* Extentions for Angular & TypeScript
+    1. Angular v4 TypeScript Snippets
