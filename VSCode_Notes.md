@@ -34,5 +34,5 @@
     6. Node Exec
     7. Code Runner
 
-* Extentions for Angular & TypeScript
+* Extensions for Angular & TypeScript
     1. Angular v4 TypeScript Snippets
