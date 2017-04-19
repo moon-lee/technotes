@@ -39,3 +39,20 @@
 
                 `$ sudo usermod -aG docker $USER`
             
+* Engine(docker) CLI
+
+    1. [Remove one or more containers](https://docs.docker.com/engine/reference/commandline/rm/)
+        * Usage
+
+            `$ docker rm [OPTIONS] CONTAINER [CONTAINER...]`
+    
+        * Remove all stopped containters
+
+            `$ docker rm $(docker ps -a -q)`
+
+    2. [Remove one or more images](https://docs.docker.com/engine/reference/commandline/rmi/)
+        * Usage
+
+            `docker rmi [OPTIONS] IMAGE [IMAGE...]`
+
+    
