@@ -90,8 +90,38 @@
 
 2. DroneDeploy
 
+    * Flight Setting for improving the Map Quality from drone
+    
+    * [Reference site](https://blog.dronedeploy.com/how-to-improve-the-map-quality-from-your-drone-14b115859fee) 
+
+    * Increase front-overlap(frontlap) ans side-overlap(sidelap) during planning
+
+    * Fly higher
+
+    * Fly slower
+
+    * Check camera settings and quality of individual photos
+        
+        * the speed of SD Card will affect your camera acquisition
+            
+            * SD Card Type
+                * SDHC (Secure Digital High Capacity) : 2 ~ 32 GB
+                * SDXC (Secure Digital eXtra Capacity) : over 32 GB
+
+            * SD Card Speed 
+                * UHS Speed Class 1 : U1 (minimum write speed : 10MB/sec)
+                * UHS Speed Class 3 : U3 (minimum write speed : 30MB/sec)
+                
+            * UHS Bus Speed
+                * UHS-I : maximum read speed of 104MB/s
+                * UHS-II : maximum read speed of 312MB/s
+
 3. Agisoft Photoscan
 
 4. DronePan
 
 5. DroneBlock
+
+6. Aerial Mapping References
+
+    * 
