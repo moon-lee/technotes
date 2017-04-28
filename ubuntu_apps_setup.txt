@@ -160,14 +160,26 @@
 8. Install GIMP from PPA
 	-> This PPA is for Ubuntu >=12.04 and Linux Mint >=13
 
-	-> Installing:
+	-> Install:
 		open a terminal and type:
-		sudo add-apt-repository ppa:otto-kesselgulasch/gimp
-		sudo apt-get update
-		sudo apt-get install gimp
+		$ sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+		$ sudo apt-get update
+		$ sudo apt-get install gimp
 
-	-> Removing:
+	-> Uninstall:
 		open a terminal and type:
-		sudo apt-get install ppa-purge
-		sudo ppa-purge ppa:otto-kesselgulasch/gimp
+		$ sudo apt-get install ppa-purge
+		$ sudo ppa-purge ppa:otto-kesselgulasch/gimp
+
+9. Install KeePass 2 from PPA
+	-> https://launchpad.net/~jtaylor/+archive/ubuntu/keepass
+
+	-> Install:
+		$ sudo add-apt-repository ppa:jtaylor/keepass
+		$ sudo apt-get update
+		$ sudo apt-get install keepass2
+
+	-> Uninstall:
+		$ sudo apt-get install ppa-purge
+		$ sudo ppa-purge ppa:jtaylor/keepass
 
