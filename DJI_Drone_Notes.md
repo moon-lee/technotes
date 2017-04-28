@@ -35,3 +35,13 @@
         * Optimized power management for long-term battery storage
 
         * need to require update the firmware for all Phantom 4 Intelligent Flight Batteries
+
+7. Phantom 4 Remote Controller 
+
+    * Version 1.8.0
+
+    * Released 2016-10-10
+
+    * Improved video stream quality when using GL300A Remote Controller to record 2.7k video
+
+    * Enhabced Remote Controller and mobile device connection stability
