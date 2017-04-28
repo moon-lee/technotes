@@ -27,3 +27,11 @@
 5. App database
 
     * Version 0.0.1.4
+
+6. Phantom 4 Firmware
+
+    * All-in-One Firmware version : `01.02.0602` 2016-11-08 released
+
+        * Optimized power management for long-term battery storage
+
+        * need to require update the firmware for all Phantom 4 Intelligent Flight Batteries
