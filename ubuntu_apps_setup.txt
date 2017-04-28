@@ -157,4 +157,17 @@
 
     -> bootstrapdemo : a demo web site based on the Bootstrap 3 
 
+8. Install GIMP from PPA
+	-> This PPA is for Ubuntu >=12.04 and Linux Mint >=13
+
+	-> Installing:
+		open a terminal and type:
+		sudo add-apt-repository ppa:otto-kesselgulasch/gimp
+		sudo apt-get update
+		sudo apt-get install gimp
+
+	-> Removing:
+		open a terminal and type:
+		sudo apt-get install ppa-purge
+		sudo ppa-purge ppa:otto-kesselgulasch/gimp
 
