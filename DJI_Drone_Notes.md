@@ -45,3 +45,26 @@
     * Improved video stream quality when using GL300A Remote Controller to record 2.7k video
 
     * Enhabced Remote Controller and mobile device connection stability
+
+8. Inspire 1 
+
+    * with Zenmuse X3 is usually called as a DJI Inspire 1
+
+    * with Zenmuse X5 is usually called as a DJI Inspire 1 Pro
+
+    * with Zenmuse X5R is usually called as a DJI Inpsire 1 Raw
+
+9. Inspire 1 Firmware
+
+    * with Zenmuse X3 is `Inspire 1 Firmware v1.10.1.40` released 2016-12-15
+
+    * with Zenmuse X5 is `Inspire 1 Pro Firmware v1.10.1.40` released 2016-12-15
+
+    * with Zenmuse X5R is `Inspire 1 Raw Firmware v1.10.1.40` released 2016-12-15
+    
+    * Optimized Flight Restriction Zone management by deleting flight restrictions for some abandoned
+airports.
+
+    * Slowed motor stopping time to three seconds during flight.
+
+10. DJI Go app iSO version is v3.1.1 (2790)
