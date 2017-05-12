@@ -122,6 +122,17 @@
 
     * Extract file and run the photoscan.sh script
 
+    * Image Process Workflow
+
+        1. Align Photo
+        2. Optimize Align Photo
+        3. Build Dense Point Cloud
+        4. Build Mesh
+        5. Build Texture
+        6. Build DEM
+        7. Build Orthomosaic
+
+
 4. DronePan
 
 5. DroneBlock
