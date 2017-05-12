@@ -116,7 +116,11 @@
                 * UHS-I : maximum read speed of 104MB/s
                 * UHS-II : maximum read speed of 312MB/s
 
-3. Agisoft Photoscan
+3. Agisoft Photoscan Professional [Web site](http://www.agisoft.com/)
+
+    * [Download Installer](http://www.agisoft.com/downloads/installer/)  
+
+    * Extract file and run the photoscan.sh script
 
 4. DronePan
 
@@ -124,4 +128,5 @@
 
 6. Aerial Mapping References
 
-    * 
+    * GDAL
+    * QGIS
