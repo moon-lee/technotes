@@ -117,4 +117,8 @@
 
         ```
 
-        
+* Docker command tips
+
+    * Remove notagged name image
+
+        ` docker rmi $(docker images --filter "dangling=true" -q --no-trunc) `
