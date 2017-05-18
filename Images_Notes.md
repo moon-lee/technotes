@@ -140,4 +140,28 @@
 6. Aerial Mapping References
 
     * GDAL
+
+    
     * QGIS
+
+        * Installation On Ubuntu
+
+            Add the lines for one of the repositories to /etc/apt/sources.list
+
+        ```
+            deb     http://qgis.org/debian xenial main
+            deb-src http://qgis.org/debian xenial main
+        ```
+
+            If you use one of our ubuntugis based repostotries you also need to add following line
+
+        ```
+            deb     http://ppa.launchpad.net/ubuntugis/ubuntugis-unstable/ubuntu xenial main
+        ```
+
+        ``` 
+            $ sudo apt-get update
+            $ sudo apt-get install qgis python-qgis qgis-plugin-grass
+        ```
+
+
