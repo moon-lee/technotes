@@ -30,3 +30,8 @@
     
     2. Open System Monitor from dash and select the "Filesystems" tab
 
+* Create desktop file
+
+    1. Go to /usr/share/applications
+
+        ` $ sudo gedit yourapplication.desktop `
