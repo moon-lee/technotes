@@ -20,3 +20,10 @@
         $ sudo apt-get install donnet-dev-1.0.4
 
     ```
+
+## Install .Net Core - [Windows](https://www.microsoft.com/net/core#windowscmd)
+
+1. Install .NET Core SDK
+
+    * [Download .NET Core SDK](https://go.microsoft.com/fwlink/?linkid=848827)
+    
