@@ -1,4 +1,4 @@
-Thursday 18 May
+## Thursday 18 May
 
     * Contact Telstra
 
@@ -17,3 +17,9 @@ Thursday 18 May
         - Telsta Account Number  is 2000585950734
 
         - Internet activation 1800 209 041 with land line number
+    
+## Tuesday 30 May 2017
+
+   * Completed the transfer the internet into Telstar
+
+    
