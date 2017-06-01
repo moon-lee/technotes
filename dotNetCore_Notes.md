@@ -26,4 +26,24 @@
 1. Install .NET Core SDK
 
     * [Download .NET Core SDK](https://go.microsoft.com/fwlink/?linkid=848827)
+
+
+## Using .Net Core - Command-Line interface [(CLI)](https://docs.microsoft.com/en-us/dotnet/core/tools/) tools
+
+1. Command structure
+
+    * **the drive("dotnet")**, **the command (or "verb")**, *[argument][options]*
+
+2. dotnet commands
+
+    * **dotnet-build** : Builds a project and all of its dependencies.
+
+        `$dotnet build`
+
+    * **dotnet-publish** : Packs the application and its dependencies into a folder for deployment to a hosting system.
+
+        `$dotnet publish  [<PROJECT>] [-f|--framework] [-r|--runtime] [-o|--output] [-c|--configuration] [--version-suffix] [-v|--verbosity] [-h|--help]`
     
+        `$dotnet publish -f netcoreapp1.1 -c Release`
+
+        `$dotnet publish -f netcoreapp1.1 -c Release -o ~/Documents/MyApps/genPano2vr/bin`
