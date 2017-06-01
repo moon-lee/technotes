@@ -20,6 +20,10 @@
 
     * Version 4.0.8 2017-04-19 released
 
+    * Version 4.1.0 2017-05-25 released
+
+        * App Name changed - DJI Go 4 - For drones since P4
+        
 4. RC for Phantom 4 Pro
 
     * Version 1.4.0.0
