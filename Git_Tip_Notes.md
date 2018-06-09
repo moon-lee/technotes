@@ -40,3 +40,7 @@
 * Delete a branch on github :
 
     ` $ git push origin :[name of your branch] `
+
+* Retrieve the locations (and name value pairs) of all git configuration files
+
+    ` git config --list --show-origin `
