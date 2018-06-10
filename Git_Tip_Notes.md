@@ -44,3 +44,16 @@
 * Retrieve the locations (and name value pairs) of all git configuration files
 
     ` git config --list --show-origin `
+
+* Git Credential Manager for Windows
+
+    * Configuration settings
+
+        * authority
+
+        ```
+            git config --global credential.GitHub.com.authority GitHub
+            git config --global credential.helper manager
+            git config --global credential.modalprompt true
+            git config --global credential.writelog true
+        ```
