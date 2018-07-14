@@ -45,4 +45,3 @@
 * SQL Server
 * Oracle
 * Firebase
-* 
