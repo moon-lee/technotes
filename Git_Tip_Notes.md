@@ -39,7 +39,7 @@
 
 * Pushing a branch on github :
 
-    ` $ git push origin :[name of your branch] `
+    ` $ git push -u origin [name of your branch] `
 
 * Retrieve the locations (and name value pairs) of all git configuration files
 
