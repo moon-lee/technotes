@@ -37,7 +37,7 @@
 
     ` $ git branch -d [name of your branch] `
 
-* Delete a branch on github :
+* Pushing a branch on github :
 
     ` $ git push origin :[name of your branch] `
 
@@ -57,3 +57,10 @@
             git config --global credential.modalprompt true
             git config --global credential.writelog true
         ```
+
+* Cleaning Ignored Files
+    ```
+        git rm -r --cached .
+        git add .
+        git commit -m "Clean up ignored files"
+    ```
