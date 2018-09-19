@@ -37,6 +37,10 @@
 
     ` $ git branch -d [name of your branch] `
 
+* Delete a branch on remote :
+
+    ` $ git push <remote name> -d[--delete] <remote branch name> `
+
 * Pushing a branch on github :
 
     ` $ git push -u origin [name of your branch] `
@@ -64,3 +68,18 @@
         git add .
         git commit -m "Clean up ignored files"
     ```
+
+* Git Merge
+    * Make sure the merging branch and the mergeed barnch are up to date
+
+    * if it is merged branch hotfix into the master branch
+
+    ``` 
+        git fetch (in hotfix branch)
+        git checkout master
+        git pull
+
+        git merge hotfix
+    ```
+    * it will be fast-forward merge or three-way merge by git and it there are conflicts it has to be resloved
+
