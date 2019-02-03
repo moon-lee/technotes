@@ -49,6 +49,14 @@
 
     ` git config --list --show-origin `
 
+* Git config
+
+   ```
+	 git config --global user.email "your@email"
+	 git config --global user.name "yourname"
+     ```
+
+
 * Git Credential Manager for Windows
 
     * Configuration settings
