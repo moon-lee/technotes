@@ -49,7 +49,7 @@
 
     ` git config --list --show-origin `
 
-* Git config
+* Git config basic
 
    ```
 	 git config --global user.email "your@email"
