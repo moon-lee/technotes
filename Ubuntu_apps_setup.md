@@ -36,17 +36,26 @@
 			-> Option 3 : Awesome Powerline fonts -> https://github.com/gabrielelana/awesome-terminal-fonts
 			-> Option 4 : Nerd-fomts -> https://github.com/ryanoasis/nerd-fonts
 
-4. Install SublimeText 3
-    -> Go To SublimeText_Notes.txt in this project.
+4. Install vscode
+    -> https://code.visualstudio.com/docs/setup/linux
+	-> https://linuxize.com/post/how-to-install-visual-studio-code-on-ubuntu-18-04/
+	-> Install extensions refer to VSCode_Notes.md 
 
 5. Install Bitnami LAMP Stack
 	-> https://bitnami.com/stack/lamp/installer
 	-> https://docs.bitnami.com/installer/infrastructure/lamp/ <- Documentation
-		: $ cd /tmp <-- changing directory to installer location
-		: $ chmod +x ./bitnami-wordpress-*-module-linux-x64-installer.run <-- change mode to executed mode
-		: $ sudo ./bitnami-wordpress-*-module-linux-x64-installer.run  <-- install LAMP stack globally with root right 
+	-> Download native installers file and change mode to excuted mode
+		: $ sudo chmod 755 bitnami-APPNAME-VERSION-linux.run
+	-> Run installer globally with root right
+		: $ sudo ./bitnami-APPNAME-VERSION-linux.run
+	-> Locate the installation directory
+		: Regular user -> sub-diretory of home directory
+		: Root user -> /opt/APPNAME-VERSION
 	-> change the installed folder group (apache2, apps, frameworks)
 		: $ sudo chown <user>:<group> [directory|files] -> $ sudo chown -R :moon apps
+	-> Configuration 
+		: ./bnconfig --help
+		https://docs.bitnami.com/installer/faq/linux-faq/configuration/understand-bnconfig/
 
 6. Install Mysql workbench
 	-> https://dev.mysql.com/doc/workbench/en/wb-linux.html
