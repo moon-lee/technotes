@@ -56,6 +56,15 @@
 	-> Configuration 
 		: ./bnconfig --help
 		https://docs.bitnami.com/installer/faq/linux-faq/configuration/understand-bnconfig/
+	->start and stop services 
+		https://docs.bitnami.com/installer/infrastructure/lamp/administration/control-services-linux/	
+		: $ cd installdir
+		: $ sudo ./manager-linux-x64.run -- GUI
+		: $ sudo ./ctrscript.sh start|stop|restrart [servicename][status]
+	-> Check installed Php, Mysql and other application version with console
+		: $ cd installdir
+		: $ sudo ./use_lampstack
+		: $ php --version | mysql --version
 
 6. Install Mysql workbench
 	-> https://dev.mysql.com/doc/workbench/en/wb-linux.html
