@@ -87,12 +87,13 @@
 		: Then Restart MySQL server
 
 7. Install Previous Projects
-	-> SIMS : SIAMA SIMS version 1.0
-		-> clone with specific branch and rename the repository to "bis"
-		: $ git clone -b local_sims https://github.com/moon-siama/bis.git bis
+	-> myProjects : mywebpack and mywebci from github
+		: $ git clone https://github.com/moon-lee/mywebci.git
+		: $ git clone https://github.com/moon-lee/mywebpack.git
 
-		-> Import database <- using backup script and MySQL Workbench
-		-> Configuration the web pages
+8. Import database <- using backup script and MySQL Workbench
+		
+9. Configuration the web pages
 			-> config the lamp stack conf files
 				: $ sudo mkdir installdir/apps/myapp
 				: $ sudo mkdir installdir/apps/myapp/htdocs/
