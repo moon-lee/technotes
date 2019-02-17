@@ -35,3 +35,21 @@
     1. Go to /usr/share/applications
 
         ` $ sudo gedit yourapplication.desktop `
+
+* List the installed software packages
+    `$ sudo apt list --installed `
+    `$ sudo apt list --installed | less `
+    `$ sudo apt list --installed | grep -i build`
+ 
+* Show software packages details
+    `$ apt show packagename`
+    ` Goto https://packages.ubuntu.com/ and search ` 
+
+* Install Curl
+    -> Curl is command line utility for transferring data from or to a server designed to work without user interactions
+
+    `$ sudo apt update | sudo apt install curl `
+
+* Install developments tools
+    `$ sudo apt install build-essential`
+    

@@ -23,7 +23,15 @@
 			-> https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/
 
 	-> Install Oh-My-Zsh
+		https://github.com/robbyrussell/oh-my-zsh
 		: $ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+	-> Upgrade Oh-My-Zsh
+		: $ upgrade_oh_my_zsh 
+		or it will check automatically
+
+	-> Uninstal Oh-My-Zsh
+		: $ uninstall_oh_my_zsh
 
 	-> Install theme and fonts
 		: Powerlevel9k theme
@@ -122,19 +130,39 @@
 
 				: Include "installdir/apps/myapp/conf/httpd-prefix.conf"
 
-    -> automation : Automation web testing with a headless webkit as phantomjs, casperjs, mocha, chai, nodejs, npm, nvm
-   		-> clone and rename the repository to "automation"
-   		: $ git clone https://github.com/moon-siama/automation_testing.git automation
+10. Installation node.js , npm and nvm
+    -> https://linuxize.com/post/how-to-install-node-js-on-ubuntu-18.04/
 
+	-> 1> Install Node.js and npm from the ubuntu repository <- only deploying Node.js application
+		: $ sudo apt upate | sudo apt install nodejs npm 
+		
+	-> 2> Insatll Node.js from the NodeSource repository
+		-> https://github.com/nodesource/distributions/blob/master/README.md
+
+	-> 3> Install Node.js and npm using NVM
+		-> https://github.com/creationix/nvm
+		
    		-> Install nvm <- it's a version manager for Node.js
-   			-> https://github.com/creationix/nvm/blob/master/README.markdown
+
+			Install developments tools
    			-> Check C++ compiler and cURL
    				: $ sudo apt-get install build-tools libssl-dev curl
-   			-> Running the install script with cURL
-   				: $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash 
+
+		   [Option 1]
+   			-> https://github.com/creationix/nvm#install-script
+   			-> Running the install script with cURL <- To Install or update nvm
+   				: $ curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.34.1/install.sh | bash 
    			-> Check the below in the .bashrc or .zshrc
    				: export NVM_DIR="$HOME/.nvm"
 				: [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+
+			[Option 2]
+			-> Install nvm as a zsh plugin - Install zsh-nvm and run nvm upgrade to upgrade
+			-> https://github.com/lukechilds/zsh-nvm
+			-> Upgrade : $ nvm upgrade
+			-> Revert : $ nvm revert
+			
+
    			-> Verify that nvm was Properly installed
    				: $ nvm --version
    			-> Install the latest Node.js version
@@ -159,22 +187,6 @@
    			: it is a package manager for JavaScript
    			: It is came with Node.js and need to up-to-date
    				-> $ npm install -g npm
-
-   		-> Install PhantomJs
-   			: $ npm install phantomjs-prebuilt
-   			
-   		-> Install CasperJs
-   			: $ npm install casperjs
-
-   	-> cidemo : a demo web site based on the codeigniter framework 
-   		-> clone and rename the repository to "cidemo"
-   		: $ git clone https://github.com/moon-siama/codeigniter.git cidemo
-   		-> create and change the branch to "mywebapp" from origin/mywebapp
-   		: $ git checkout -b mywebapp origin/mywebapp
-   		-> Configuration the web pages in the lamp stack
-
-
-    -> bootstrapdemo : a demo web site based on the Bootstrap 3 
 
 8. Install GIMP from PPA
 	-> This PPA is for Ubuntu >=12.04 and Linux Mint >=13
