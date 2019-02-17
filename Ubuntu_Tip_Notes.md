@@ -52,4 +52,20 @@
 
 * Install developments tools
     `$ sudo apt install build-essential`
+
+* Install VirrualBox 6.0 
+    1. Add VirtualBox 6 Repo keys
+        `:$ wget -q https://www.virtualbox.org/download/oracel_vbox_2016.asc -O- | sudo apt-key add - `
+        `:$ wget -q https://www.virtualbox.org/download/oracel_vbox.asc -O- | sudo apt-key add - `
+
+    2. Add repository
+        `"$ sudo add-apt-repository "deb [arch=amd64] http://download.virtualbox.org/virtualbox/debian $(lsb_release -cs) contrib"`
+
+    3. Install extension pack
+        - Download extension pack
+        ```
+        $ wget https://download.virtualbox.org/virtualbox/6.0.0/Oracle_VM_VirtualBox_Extension_Pack-6.0.0.vbox-extpack
+        $ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.0.0.vbox-extpack
+        ```
     
+       /home/moon/VirtualBox VMs

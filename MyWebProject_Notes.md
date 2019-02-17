@@ -1,10 +1,8 @@
 # My Web Project Notes
 
-## Server side framewark
+1. myProjects : mywebpack and mywebci from github
+    : $ git clone https://github.com/moon-lee/mywebci.git
+    : $ git clone https://github.com/moon-lee/mywebpack.git
 
-* Codeignitor 3.1.9
-    * PHP
-
-* MySQL
-
-## 
+2. Create folder in mywebci
+    Installdir/assets/dist
