@@ -14,4 +14,12 @@
 
 ## Create user with mysql_native_password
 
-` CREATE USER 'newuser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password' `
+    ```
+        CREATE USER 'newuser'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password' `
+
+        create user 'wom'@'localhost' identified by 'password';
+
+        flush privileges;
+
+        grant all on myweb.* to 'wom'@'localhost';
+    ```

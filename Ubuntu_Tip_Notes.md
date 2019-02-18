@@ -68,4 +68,7 @@
         $ sudo VBoxManage extpack install Oracle_VM_VirtualBox_Extension_Pack-6.0.0.vbox-extpack
         ```
     
-       /home/moon/VirtualBox VMs
+* Fix "system program problem detected" error in Ubuntu
+    https://itsfoss.com/how-to-fix-system-program-problem-detected-ubuntu/
+    `$ ls -l /var/crash/ `
+    `$ sudo rm /var/crash/*`
