@@ -187,6 +187,7 @@
    			: it is a package manager for JavaScript
    			: It is came with Node.js and need to up-to-date
    				-> $ npm install -g npm
+				   npm install npm@latest -g
 
 8. Install GIMP from PPA
 	-> This PPA is for Ubuntu >=12.04 and Linux Mint >=13
