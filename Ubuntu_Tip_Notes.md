@@ -72,3 +72,31 @@
     https://itsfoss.com/how-to-fix-system-program-problem-detected-ubuntu/
     `$ ls -l /var/crash/ `
     `$ sudo rm /var/crash/*`
+
+* VMWare 15 Error on Ubuntu 18.4 - Could not open /dev/vmmon: No such file or directory
+    
+    Reason
+    
+    The system with secure boot enabled will not allow loading of any unsigned drivers. Due to this vmmon module is not loaded in the system and thus getting above error.
+    
+
+```
+    $openssl req -new -x509 -newkey rsa:2048 -keyout MOK.priv -outform DER -out MOK.der -nodes -days 36500 -subj "/CN=VMware/"
+
+
+    $ sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmmon)
+
+    $ sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmnet)
+
+    //$ tail $(modinfo -n vboxdrv) | grep "Module signature appended"
+
+    $ sudo mokutil --import MOK.der
+        --> rebooted --> registered the key upon booting successfully and confirmed by:
+
+    $ mokutil --test-key MOK.der
+        --> Also manually signed up the drivers by:
+
+    $ sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmmon)
+
+    $ sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmnet)
+```
