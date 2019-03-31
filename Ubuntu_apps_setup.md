@@ -208,8 +208,8 @@
 
 	-> Install:
 		$ sudo add-apt-repository ppa:jtaylor/keepass
-		$ sudo apt-get update
-		$ sudo apt-get install keepass2
+		$ sudo apt update
+		$ sudo apt install keepass2
 
 	-> Uninstall:
 		$ sudo apt-get install ppa-purge
