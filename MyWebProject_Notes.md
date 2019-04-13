@@ -5,10 +5,10 @@
     : $ git clone https://github.com/moon-lee/mywebpack.git
 
 2. Create folder in mywebci
-    if it downloded from git, it would be created, because git ignore rule applied
+    if it downloaded from git, it would be created, because git ignore rule applied
 
-    Installdir/assets/dist
-    Installdir/application/logs 
+    Install_dir/assets/dist
+    Install_dir/application/logs 
 
 3. Check update 
     1) Lamp stack - 7.1.26
