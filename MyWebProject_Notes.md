@@ -20,3 +20,9 @@
         - nvm - 0.34.0
         - node - 11.11.0 
         - npm - 6.9.0
+
+4. Spending data procedure
+    1) Upload file to server and write log and update status
+    2) Mysql server lookup status whether procedure do or not
+    3) Mysql procedure load file and category data and add it to spending table 
+
