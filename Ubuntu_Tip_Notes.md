@@ -100,3 +100,15 @@
 
     $ sudo /usr/src/linux-headers-$(uname -r)/scripts/sign-file sha256 ./MOK.priv ./MOK.der $(modinfo -n vmnet)
 ```
+
+* Disable built wi-fi adapter in ubuntu
+
+    1. get module_name or id
+
+    `$ lspci -nnk | grep -iA2 net`
+
+    2. add blacklist  module
+
+    `sudo gedit /etc/modprobe.d/blacklist.conf`
+
+    3. Reboot    
