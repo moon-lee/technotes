@@ -23,3 +23,6 @@
 
         grant all on myweb.* to 'wom'@'localhost';
     ```
+## Export database
+
+    ` mysqldump -u root -p myweb > /home/moon/myData/mywebci/conf/dump20190420.sql `
