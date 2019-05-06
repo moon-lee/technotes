@@ -14,3 +14,7 @@
         $ npm --version
         $ npm install npm@latest -g
     ```
+
+* Resolving lockfile conflict - https://docs.npmjs.com/files/package-locks
+   
+    `npm install --package-lock-only`
