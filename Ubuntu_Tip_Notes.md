@@ -93,6 +93,10 @@
     $ sudo mokutil --import MOK.der
         --> rebooted --> registered the key upon booting successfully and confirmed by:
 
+        Enroll MOK  --> Continue --> Yes  --> Enter Password  --> OK
+        
+
+
     $ mokutil --test-key MOK.der
         --> Also manually signed up the drivers by:
 

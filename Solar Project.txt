@@ -1,0 +1,22 @@
+This is reference notes for solar project
+
+Power = Voltage x Current (Amps)
+
+        12v x 1A = 12W
+
+Amp Hours = Amps x Hours AH
+
+
+Example 
+
+  12v , 1A running 24hours = 24AH
+
+
+Battery 
+
+100AH
+
+
+Solar Panel
+
+Solar charge controller
