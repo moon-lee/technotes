@@ -18,3 +18,18 @@
 * Resolving lockfile conflict - https://docs.npmjs.com/files/package-locks
    
     `npm install --package-lock-only`
+
+
+* Uninstall a package
+
+    ``` 
+        npm uninstall [<@scope>/]<pkg>[@<version>]... [-S|--save|-D|--save-dev|-O|--save-optional|--no-save]
+
+        aliases: remove, rm, r, un, unlink   
+
+        -S, --save: Package will be removed from your dependencies.
+        -D, --save-dev: Package will be removed from your devDependencies.
+        -O, --save-optional: Package will be removed from your optionalDependencies.
+        --no-save: Package will not be removed from your package.json file.
+    
+    ```
