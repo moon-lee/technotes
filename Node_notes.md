@@ -2,7 +2,7 @@
 
     1. Globally installed npm packages
        
-        `$ npm list -g`
+        `$ npm list -g --depth=0`
     
     2. Locally installed npm packages
 
