@@ -113,6 +113,10 @@
 
     2. add blacklist  module
 
-    `sudo gedit /etc/modprobe.d/blacklist.conf`
-
+    ``` 
+        sudo gedit /etc/modprobe.d/blacklist.conf
+        update-initramfs -u
+        
+    ```
+    
     3. Reboot    
